@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+body{
+  background-color: #23252C;
+}
+
+.container{
+  background-color: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  min-height: 800px;
+  min-width: 500px;
+  box-shadow:20px #000;
+}
+/*Header*/
+.photo{
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+  background-image: url(./assets/photo.jpg);
+  min-height: 300px;
+}
+
+.info{
+  min-height: 95px;
+  padding:1px;
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  padding: 5px;
+}
+
+.button-item{
+  display: flex;
+  margin-inline: 28px;
+}
+
+.button-item button{
+  width: 180px;
+}
+
+.email-button{
+  background-color: rgb(124, 121, 121);
+}
+
+.linkedin-button{
+  background-color: cornflowerblue;
+}
+
+/*About and Interests Section*/
+.about{
+  width: 400px;
+  margin-left: 45px;
+}
+
+/*Footer Section*/
+.social-container{
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.social-container ul li{
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  margin-inline:10px;
+}
+
+
